@@ -35,6 +35,7 @@ def run_lsblk(device):
             if child['name'] == device:
                 return child
 
+# Adding a dummy comment to test Github Actions
 
 @click.command()
 @click.option('--verbose', '-v', is_flag=True)
